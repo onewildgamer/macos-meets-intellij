@@ -16,7 +16,7 @@
     <idea-version since-build="191.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
-        <bundledKeymap file="" />
+        <bundledKeymap file="macos-meets-intellij.xml" />
     </extensions>
 
     <actions />
