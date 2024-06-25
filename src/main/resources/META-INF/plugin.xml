@@ -1,18 +1,23 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.onewildgamer.macosmeetsintellij</id>
-    <name>macos-meets-intellij</name>
-    <vendor>onewildgamer</vendor>
+    <name>macOS meets default</name>
+    <vendor email="mathu92@gmail.com" url="https://github.com/onewildgamer"></vendor>
 
-    <depends>com.intellij.modules.platform</depends>
+    <description><![CDATA[
+      A keymap for macOS with default IntelliJ shortcuts merged with some macOS shortcuts without conflicting existing ones.
+      check the <a href="https://github.com/onewildgamer/macos-meets-intellij">macos-meets-intellij</a>.<br><br>
+      If you notice any conflicting shortcuts or have a suggestion for a new keybinding, please
+      <a href="https://github.com/onewildgamer/macos-meets-intellij/issues/new">open an issue on GitHub</a>.
+    ]]></description>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
+    <depends>com.intellij.modules.lang</depends>
+
+    <idea-version since-build="191.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.onewildgamer.macosmeetsintellij.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <bundledKeymap file="" />
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.onewildgamer.macosmeetsintellij.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
+    <actions />
 </idea-plugin>
