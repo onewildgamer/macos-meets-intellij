@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.onewildgamer.macosmeetsintellij</id>
-    <name>macOS meets default</name>
+    <name>macos-meets-default</name>
     <vendor email="mathu92@gmail.com" url="https://github.com/onewildgamer"></vendor>
 
     <description><![CDATA[
@@ -11,7 +11,9 @@
       <a href="https://github.com/onewildgamer/macos-meets-intellij/issues/new">open an issue on GitHub</a>.
     ]]></description>
 
-    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <idea-version since-build="201.0"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <bundledKeymap file="macos-meets-intellij.xml" />
