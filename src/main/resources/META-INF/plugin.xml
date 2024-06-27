@@ -1,10 +1,11 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.onewildgamer.macosmeetsintellij</id>
-    <name>macos-meets-intellij</name>
-    <vendor>onewildgamer</vendor>
+    <name>macOS meets default</name>
+    <vendor email="mathu92@gmail.com" url="https://github.com/onewildgamer"></vendor>
 
     <description><![CDATA[
+
       A keymap for macOS users with sensible defaults for missing pieces and conflicting keymaps in IntelliJ.<br><br>
       If you notice any conflicting shortcuts or have a suggestion for a new keybinding, please
       <a href="https://github.com/onewildgamer/macos-meets-intellij/issues/new">open an issue on GitHub</a>.
