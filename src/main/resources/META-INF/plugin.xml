@@ -1,18 +1,20 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>org.jetbrains.plugins.template</id>
-    <name>IntelliJ Platform Plugin Template</name>
-    <vendor>JetBrains</vendor>
+    <id>com.github.onewildgamer.macosmeetsintellij</id>
+    <name>macos-meets-default</name>
+    <vendor>onewildgamer</vendor>
+
+    <description><![CDATA[
+      A keymap for macOS users with sensible defaults for missing pieces and conflicting keymaps in IntelliJ.<br><br>
+      If you notice any conflicting shortcuts or have a suggestion for a new keybinding, please
+      <a href="https://github.com/onewildgamer/macos-meets-intellij/issues/new">open an issue on GitHub</a>.
+    ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="org.jetbrains.plugins.template.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <bundledKeymap file="macos-meets-intellij.xml" />
     </extensions>
 
-    <applicationListeners>
-        <listener class="org.jetbrains.plugins.template.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
+    <actions />
 </idea-plugin>
