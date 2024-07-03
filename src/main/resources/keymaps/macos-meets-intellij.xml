@@ -1,4 +1,4 @@
-<keymap version="1" name="Mac OS X 10.5+ onetwo" parent="Mac OS X 10.5+">
+<keymap version="1" name="macos-meets-default" parent="macOS">
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="ctrl meta o" />
   </action>
@@ -32,22 +32,10 @@
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
-  <action id="Scala.RunWorksheet" />
-  <action id="Scala.ShowImplicits">
-    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
-  </action>
   <action id="ShowLiveRunConfigurations">
     <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="ToggleFullScreen">
-    <keyboard-shortcut first-keystroke="shift f11" />
     <keyboard-shortcut first-keystroke="ctrl meta f" />
-  </action>
-  <action id="android.deploy.ApplyChanges">
-    <keyboard-shortcut first-keystroke="ctrl meta r" />
-  </action>
-  <action id="android.deploy.CodeSwap">
-    <keyboard-shortcut first-keystroke="shift ctrl meta r" />
   </action>
 </keymap>
