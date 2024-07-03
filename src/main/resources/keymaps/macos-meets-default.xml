@@ -1,4 +1,4 @@
-<keymap version="1" name="macos-meets-default" parent="macOS">
+<keymap version="1" name="macos-meets-default" parent="$default">
   <action id="$LRU">
     <keyboard-shortcut first-keystroke="ctrl meta o" />
   </action>
