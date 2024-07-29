@@ -4,11 +4,10 @@
     <name>macos-meets-default</name>
     <vendor>onewildgamer</vendor>
 
-    <description><![CDATA[
-      A keymap for macOS users with sensible defaults for missing pieces and conflicting keymaps in IntelliJ.<br><br>
+    <description>
+      A keymap for macOS users with sensible defaults for missing pieces and conflicting keymaps in IntelliJ.
       If you notice any conflicting shortcuts or have a suggestion for a new keybinding, please
-      <a href="https://github.com/onewildgamer/macos-meets-intellij/issues/new">open an issue on GitHub</a>.
-    ]]></description>
+      https://github.com/onewildgamer/macos-meets-intellij/issues/new</description>
 
     <depends>com.intellij.modules.platform</depends>
 
